@@ -1,0 +1,66 @@
+
+# Meta-learning-Experiment — Requirements + Execution Environments
+#####################################################################
+
+# This file lists the Python packages used by the ValueStack experiments
+# Documented the hardware environments used in the reported runs.
+
+
+
+# Hardware / Execution Environment (as used in experiments)
+
+# Deep Learning baseline (GRU notebook):
+ - Machine: Apple M2
+ - CPU: 8-core CPU
+ - RAM: 16 GB unified memory
+ - Notes: TensorFlow/Keras used; in mixed TF+PyTorch workflows, TF may be forced to CPU for stability.
+
+# Transformer fine-tuning (BERT / RoBERTa notebooks):
+ - Platform: AutoDL GPU server
+ - GPU: NVIDIA RTX 5090 (1 GPU card)
+ - CPU: 25-core Intel(R) Xeon(R) Platinum 8470Q
+ - RAM: 90 GB
+
+
+
+# Core Libraries
+
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+matplotlib>=3.7
+seaborn>=0.13
+tqdm>=4.66
+
+
+# Data imbalance handling
+
+imbalanced-learn>=0.11
+
+
+# NLP utilities
+
+nltk>=3.8
+beautifulsoup4>=4.12
+
+# Save/load ML artifacts
+joblib>=1.3
+pickle-mixin>=1.0
+
+
+# Transformers (PyTorch)
+
+torch>=2.1
+transformers>=4.38
+accelerate>=0.27
+sentencepiece>=0.1.99
+
+
+# Deep Learning baseline (Keras / TF)
+
+tensorflow>=2.13
+
+
+# Stacking meta-learner
+
+xgboost>=2.0
