@@ -1,4 +1,4 @@
-# Enhanced detection and classification of Human Values in App Reviews (ValueStack Experiments)
+# Enhanced classification of Human Values in App Reviews (ValueStack Experiments)
 
 This repository contains datasets and notebooks for identifying and classifying **10 Human Values** from app reviews. The project includes classical ML baselines, deep learning models, Transformer models, and a **stacking ensemble (ValueStacking)** that combines multiple base learners into a stronger meta-model.
 
